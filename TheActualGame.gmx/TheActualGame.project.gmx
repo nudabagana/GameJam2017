@@ -24,6 +24,7 @@
     <sprites name="GUI">
       <sprite>sprites\spr_ScoreLine</sprite>
       <sprite>sprites\spr_TowerMenu</sprite>
+      <sprite>sprites\spr_BuyItemBox</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -49,13 +50,14 @@
     <object>objects\obj_Coral</object>
     <object>objects\obj_Crab</object>
     <objects name="Towers">
-      <object>objects\obj_Tower1</object>
+      <object>objects\obj_TowerDetector</object>
       <object>objects\obj_TowerDetector</object>
     </objects>
     <object>objects\object10</object>
     <objects name="GUI">
       <object>objects\obj_ScoreLine</object>
       <object>objects\obj_TowerMenu</object>
+      <object>objects\obj_BuyItemBox</object>
     </objects>
   </objects>
   <rooms name="rooms">

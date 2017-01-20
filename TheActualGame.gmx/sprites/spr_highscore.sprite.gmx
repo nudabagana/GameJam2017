@@ -20,7 +20,7 @@
   <width>400</width>
   <height>100</height>
   <frames>
-    <frame index="0">images\spr_exit_0.png</frame>
-    <frame index="1">images\spr_exit_1.png</frame>
+    <frame index="0">images\spr_highscore_0.png</frame>
+    <frame index="1">images\spr_highscore_1.png</frame>
   </frames>
 </sprite>

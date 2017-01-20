@@ -13,7 +13,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>
-    <room>rooms\test</room>
     <room>rooms\rm_Level_1</room>
   </rooms>
   <help>

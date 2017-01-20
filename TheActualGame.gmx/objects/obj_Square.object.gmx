@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_Grid</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>this.BuilOn = false;
+            <string>//this.BuilOn = false;
 </string>
           </argument>
         </arguments>

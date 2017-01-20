@@ -32,11 +32,11 @@ startX = 0;
 startY = 40;
 squareSize = 40;
 
-for (i = 0; i &lt; 14; i += 1)
+for (var i = 0; i &lt; 14; i += 1)
    {
-   for (i2 = 0; i &lt; 20; i2 += 1)
+   for (var i2 = 0; i2 &lt; 20; i2 += 1)
         {
-        ds[i,i2] = instance_create(startY + squareSize * i1, startX + squareSize * i2, obj_Square);
+        ds[i,i2] = instance_create(startX + squareSize * i2, startY + squareSize * i, obj_Square);
         }
    }
 </string>

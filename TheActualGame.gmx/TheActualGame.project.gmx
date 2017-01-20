@@ -8,12 +8,13 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_control_level1_startl</object>
+  </objects>
   <rooms name="rooms">
-<<<<<<< HEAD
     <room>rooms\room_menu</room>
-=======
+    <room>rooms\test</room>
     <room>rooms\rm_Level_1</room>
->>>>>>> origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

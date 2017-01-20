@@ -30,11 +30,11 @@ ds_grid_clear(ds,0);
 
 startX = 100;
 startY = 100;
-squareSize = 32;
+squareSize = 40;
 
-for (i = 0; i &lt; 20; i += 1)
+for (i = 0; i &lt; 10; i += 1)
    {
-   for (i2 = 0; i &lt; 20; i2 += 1)
+   for (i2 = 0; i &lt; 10; i2 += 1)
         {
         ds[i,i2] = instance_create(startY + squareSize * i1, startX + squareSize * i2, obj_Square);
         }

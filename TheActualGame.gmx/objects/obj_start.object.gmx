@@ -72,9 +72,7 @@
    {
    for (var i2 = 0; i2 &lt; 20; i2 += 1)
         {
-        //global.ds[i,i2].visible = false;
-        myobj = global.ds[i,i2];
-        myobj.visible = true;
+        global.ds[i,i2].visible = true;
         }
    }
 </string>

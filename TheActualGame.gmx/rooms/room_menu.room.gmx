@@ -51,9 +51,10 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_start" x="480" y="384" name="inst_C86F6EFE" locked="0" code="" scaleX="1.97247707843781" scaleY="3.16666674613953" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="480" y="512" name="inst_67B9E0A8" locked="0" code="" scaleX="1.97247707843781" scaleY="3.16666674613953" colour="4294967295" rotation="0"/>
-    <instance objName="Title" x="480" y="224" name="inst_69ED9E42" locked="0" code="" scaleX="1.2039999961853" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_start" x="288" y="288" name="inst_C86F6EFE" locked="0" code="" scaleX="1.04260647296906" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="288" y="416" name="inst_67B9E0A8" locked="0" code="" scaleX="1.03999996185303" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Title" x="512" y="160" name="inst_69ED9E42" locked="0" code="" scaleX="1.2039999961853" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_control_level1_start" x="32" y="288" name="inst_F39B3128" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

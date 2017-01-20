@@ -24,6 +24,9 @@
     <background>background\bck</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_TurretDetect.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
     <objects name="Main Menu">

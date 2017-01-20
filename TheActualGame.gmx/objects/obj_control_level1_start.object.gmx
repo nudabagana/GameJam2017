@@ -25,14 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ds = ds_grid_create(50,50);
+            <string>ds = ds_grid_create(20,20);
 ds_grid_clear(ds,0);
 
-for (i = 0; i &lt; 50; i += 1)
+startX = 100;
+startY = 100;
+squareSize = 32;
+
+for (i = 0; i &lt; 20; i += 1)
    {
-   for (i2 = 0; i &lt; 50; i2 += 1)
+   for (i2 = 0; i &lt; 20; i2 += 1)
         {
-        ds[i,i2] = instance_create(1, 1, obj_Square);
+        ds[i,i2] = instance_create(startY + squareSize * i1, startX + squareSize * i2, obj_Square);
         }
    }
 </string>

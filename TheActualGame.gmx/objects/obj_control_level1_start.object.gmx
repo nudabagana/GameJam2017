@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ds = ds_grid_create(14,20);
-ds_grid_clear(ds,0);
+            <string>global.ds = ds_grid_create(14,20);
+ds_grid_clear(global.ds,0);
 
 startX = 0;
 startY = 40;
@@ -36,7 +36,7 @@ for (i = 0; i &lt; 14; i += 1)
    {
    for (i2 = 0; i &lt; 20; i2 += 1)
         {
-        ds[i,i2] = instance_create(startY + squareSize * i1, startX + squareSize * i2, obj_Square);
+        global.ds[i,i2] = instance_create(startX + squareSize * i2, startY + squareSize * i, obj_Square);
         }
    }
 </string>

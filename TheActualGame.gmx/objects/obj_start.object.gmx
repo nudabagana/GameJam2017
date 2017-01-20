@@ -110,13 +110,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>for (var i = 0; i &lt; 14; i += 1)
+            <string>/*for (var i = 0; i &lt; 14; i += 1)
    {
    for (var i2 = 0; i2 &lt; 20; i2 += 1)
         {
         global.ds[i,i2].visible = true;
         }
-   }
+   }*/
 </string>
           </argument>
         </arguments>

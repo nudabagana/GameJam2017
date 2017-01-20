@@ -9,7 +9,7 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_control_level1_startl</object>
+    <object>objects\obj_control_level1_start</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

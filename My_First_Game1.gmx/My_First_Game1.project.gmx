@@ -8,15 +8,18 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\object0</object>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\room_menu</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
     <IsTutorial>0</IsTutorial>
-    <TutorialName></TutorialName>
-    <TutorialPage>0</TutorialPage>
+    <TutorialName>C:\Users\MANTAS\AppData\Local\GameMaker-Studio\Tutorials\My_First_Game</TutorialName>
+    <TutorialPage>15</TutorialPage>
   </TutorialState>
 </assets>

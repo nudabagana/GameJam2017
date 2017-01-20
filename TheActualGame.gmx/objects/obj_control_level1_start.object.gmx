@@ -19,13 +19,13 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_control_level1_start</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ds_exists = ds_grid_create(50,50);
+            <string>ds = ds_grid_create(50,50);
 ds_grid_clear(ds,0);
 
 for (i = 0; i &lt; 50; i += 1)

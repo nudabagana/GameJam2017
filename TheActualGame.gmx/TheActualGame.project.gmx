@@ -11,6 +11,10 @@
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_title</sprite>
     </sprites>
+    <sprite>sprites\spr_Enemy</sprite>
+    <sprite>sprites\spr_Crystal</sprite>
+    <sprite>sprites\spr_Crab</sprite>
+    <sprite>sprites\spr_Coral</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -19,12 +23,16 @@
     <objects name="Main Menu">
       <object>objects\obj_start</object>
       <object>objects\obj_exit</object>
-      <object>objects\Title</object>
     </objects>
+      <object>objects\Title</object>
+    <object>objects\obj_Square</object>
+    <object>objects\obj_Enemy</object>
+    <object>objects\obj_Crystal</object>
+    <object>objects\obj_Coral</object>
+    <object>objects\obj_Crab</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>
-    <room>rooms\test</room>
     <room>rooms\rm_Level_1</room>
   </rooms>
   <help>

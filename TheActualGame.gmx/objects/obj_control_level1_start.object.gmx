@@ -25,7 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>ds_exists = ds_grid_create(50,50);
+ds_grid_clear(ds,0);
+
+for (i = 0; i &lt; 50; i += 1)
+   {
+   for (i2 = 0; i &lt; 50; i2 += 1)
+        {
+        ds[i,i2] = instance_create(1, 1, obj_Square);
+        }
+   }
+</string>
           </argument>
         </arguments>
       </action>

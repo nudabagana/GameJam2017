@@ -8,6 +8,12 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_control_level1_startl</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\test</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

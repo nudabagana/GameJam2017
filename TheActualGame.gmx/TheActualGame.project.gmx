@@ -5,12 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_Enemy</sprite>
+    <sprite>sprites\spr_Crystal</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
+<<<<<<< HEAD
     <object>objects\obj_Square</object>
+=======
+    <object>objects\obj_Enemy</object>
+    <object>objects\obj_Crystal</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

@@ -3,8 +3,8 @@
   <spriteName>spr_Grid</spriteName>
   <solid>0</solid>
   <visible>0</visible>
-  <depth>-5</depth>
-  <persistent>0</persistent>
+  <depth>0</depth>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>

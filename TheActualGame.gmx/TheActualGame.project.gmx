@@ -10,6 +10,7 @@
       <sprite>sprites\spr_exit</sprite>
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_highscore</sprite>
     </sprites>
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Crystal</sprite>
@@ -25,11 +26,17 @@
     <background>background\bck</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Main Menu">
+      <script>scripts\scr_mouse_hover.gml</script>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
     <objects name="Main Menu">
       <object>objects\obj_start</object>
       <object>objects\obj_exit</object>
+      <object>objects\obj_highscore</object>
     </objects>
     <object>objects\Title</object>
     <object>objects\obj_Square</object>
@@ -41,6 +48,7 @@
       <object>objects\obj_Tower1</object>
       <object>objects\obj_TowerDetector</object>
     </objects>
+    <object>objects\object10</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

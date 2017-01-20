@@ -8,17 +8,18 @@
   <sprites name="sprites">
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Crystal</sprite>
+    <sprite>sprites\spr_Coral</sprite>
+    <sprite>sprites\spr_Crab</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
-<<<<<<< HEAD
     <object>objects\obj_Square</object>
-=======
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Crystal</object>
->>>>>>> origin/master
+    <object>objects\obj_Coral</object>
+    <object>objects\obj_Crab</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

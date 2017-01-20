@@ -17,6 +17,7 @@
     <sprite>sprites\spr_Coral</sprite>
     <sprites name="Towers">
       <sprite>sprites\spr_Tower1</sprite>
+      <sprite>sprites\spr_TowerDetector</sprite>
     </sprites>
     <sprite>sprites\spr_Grid</sprite>
   </sprites>
@@ -24,9 +25,7 @@
     <background>background\bck</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\scr_TurretDetect.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
     <objects name="Main Menu">
@@ -41,6 +40,7 @@
     <object>objects\obj_Crab</object>
     <objects name="Towers">
       <object>objects\obj_Tower1</object>
+      <object>objects\obj_TowerDetector</object>
     </objects>
   </objects>
   <rooms name="rooms">

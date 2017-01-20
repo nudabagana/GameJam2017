@@ -19,12 +19,12 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_control_level1_startl</object>
+    <object>objects\obj_control_level1_start</object>
     <objects name="Main Menu">
       <object>objects\obj_start</object>
       <object>objects\obj_exit</object>
     </objects>
-      <object>objects\Title</object>
+    <object>objects\Title</object>
     <object>objects\obj_Square</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Crystal</object>

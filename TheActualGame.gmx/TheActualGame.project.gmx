@@ -34,8 +34,10 @@
         <sprite>sprites\spr_Tortoise</sprite>
       </sprites>
       <sprites name="Static objects">
-        <sprite>sprites\spr_sand_path</sprite>
+        <sprite>sprites\spr_sand_path1</sprite>
         <sprite>sprites\spr_Coral</sprite>
+        <sprite>sprites\spr_sand_path2</sprite>
+        <sprite>sprites\spr_sand_path3</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -82,6 +84,7 @@
       <object>objects\obj_BuyTower1</object>
     </objects>
     <object>objects\obj_Bullet</object>
+    <object>objects\obj_Sand_path1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

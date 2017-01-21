@@ -50,7 +50,6 @@
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Crystal</object>
     <object>objects\obj_Coral</object>
-    <object>objects\obj_Square</object>
     <object>objects\obj_Crab</object>
     <objects name="Towers">
       <object>objects\obj_Tower1</object>

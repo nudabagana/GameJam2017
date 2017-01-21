@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>targetID = 0;
-targetProgress = 0;
+            <string>target = noone;
 </string>
           </argument>
         </arguments>
@@ -97,25 +96,27 @@ targetProgress = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>targetProgress = 0;
-targetID = noone;
-with(obj_Tortoise)
+            <string>if(target == noone)
 {
-    if(distance_to_object(other) &lt; 120)
+    with(obj_Tortoise)
     {
-        if(other.targetProgress &lt; instspeed * age)
+        if(point_distance(x+20, y+20, other.x, other.y) &lt; 120)
         {
-            other.targetProgress = instspeed * age;
-            other.targetID = self;
+            other.target = self;
         }
     }
 }
-if (targetID != noone)
+else
 {
-    bullet = instance_create(x+20, y+20, obj_Bullet);
-    with(bullet)
+    if(target.health &gt; 0)
     {
-        target = other.targetID;
+        bullet = instance_create(x+20, y+20, obj_Bullet);
+        bullet.target = target;
+        target.health--;
+        if(target.health == 0)
+        {
+            target = noone;
+        }
     }
 }
 </string>

@@ -99,11 +99,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (collision_circle(x-20, y-20, 120, instance_find(obj_Enemy,targetID), true, true) == noone)
+            <string>if (collision_circle(x-20, y-20, 120, instance_find(obj_Tortoise,targetID), true, true) == noone)
 {
     targetID = 0;
 }
-collider = collision_circle(x+20, y+20, 120, obj_Enemy, true, true);
+collider = collision_circle(x+20, y+20, 120, obj_Tortoise, true, true);
 if (collider != noone &amp;&amp; targetID == 0)
 {
     targetID = collider.id;

@@ -221,7 +221,7 @@ global.ds[6,17].buildOn = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(global.ds[6,0].x,global.ds[6,0].y,obj_Enemy);
+            <string>instance_create(global.ds[6,0].x,global.ds[6,0].y,obj_Tortoise);
 </string>
           </argument>
         </arguments>

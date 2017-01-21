@@ -10,7 +10,7 @@
   <bbox_left>1</bbox_left>
   <bbox_right>93</bbox_right>
   <bbox_top>27</bbox_top>
-  <bbox_bottom>71</bbox_bottom>
+  <bbox_bottom>72</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -23,5 +23,6 @@
     <frame index="0">images\spr_Menu_Crab_0.png</frame>
     <frame index="1">images\spr_Menu_Crab_1.png</frame>
     <frame index="2">images\spr_Menu_Crab_2.png</frame>
+    <frame index="3">images\spr_Menu_Crab_3.png</frame>
   </frames>
 </sprite>

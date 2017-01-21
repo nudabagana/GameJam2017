@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0;
-image_index = global.coralHP;
+with(obj_control_level1_start)
+{
+    other.image_index = coralHP;
+}
 </string>
           </argument>
         </arguments>

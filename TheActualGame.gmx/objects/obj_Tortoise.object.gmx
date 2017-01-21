@@ -92,10 +92,17 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.coralHP--;
+            <string>with(obj_control_level1_start)
+{
+if (coralHP &lt;= 0)
+{
+    room_goto(room_menu);
+}
+coralHP--;
 with(obj_HealthBar)
 {
-    image_index = global.coralHP;
+    image_index = other.coralHP;
+}
 }
 instance_destroy();
 </string>

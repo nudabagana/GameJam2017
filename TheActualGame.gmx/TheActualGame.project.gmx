@@ -46,7 +46,9 @@
     <background>background\bgr_background3</background>
     <background>background\bgr_background4</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <scripts name="scripts">
     <scripts name="Main Menu">
       <script>scripts\scr_mouse_hover.gml</script>

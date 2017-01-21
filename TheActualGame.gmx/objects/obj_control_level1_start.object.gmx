@@ -28,9 +28,6 @@
             <string>global.ds = ds_grid_create(14,20);
 ds_grid_clear(global.ds,0);
 
-global.startSquareY = 6;
-global.startSquareX = 0;
-
 startX = 0;
 startY = 40;
 squareSize = 40;
@@ -50,19 +47,6 @@ for (i = 0; i &lt; 14; i += 1)
 }
 
 global.allRoomTowers = ds_list_create();
-
-global.buyToweButtons[0] = instance_create(820,160,obj_BuyItemBox);
-global.buyToweButtons[1] = instance_create(820,240,obj_BuyItemBox);
-global.buyToweButtons[2] = instance_create(820,320,obj_BuyItemBox);
-global.buyToweButtons[3] = instance_create(820,400,obj_BuyItemBox);
-global.buyToweButtons[4] = instance_create(820,480,obj_BuyItemBox);
-
-global.buyToweObj[0] = obj_Tower1;
-global.buyToweObj[1] = noone;
-global.buyToweObj[2] = noone;
-global.buyToweObj[3] = noone;
-global.buyToweObj[4] = noone;
-
 
 
 global.ds[6,0].buildOn = false;

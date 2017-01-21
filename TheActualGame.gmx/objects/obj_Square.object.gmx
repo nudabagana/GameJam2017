@@ -51,37 +51,29 @@ self.buildOn = true;
             <kind>1</kind>
             <string>if ( buildOn)
 {
-    var towerChosen = false;
-    for (var i = 0; i &lt; 5; i += 1)
-    {
-        if ( global.buyToweButtons[i].image_index == 1)
+    with(obj_BuyItemBox)
+    {   
+        if ( image_index == 1)
         {
-            towerChosen = true;
-            var towerIndex = i;
+            //buytower = instance_create(other.x,other.y,tower);
+            //ds_list_add(global.allRoomTowers, buytower.id);
+            ds_list_add(global.allRoomTowers, instance_create(other.x,other.y,tower));
+            other.buildOn = false;
+            other.image_index = 0;
+            break;
         }
-    }
-    if ( towerChosen) 
-    {
-        buytower = instance_create(x,y,global.buyToweObj[towerIndex]);
-        ds_list_add(global.allRoomTowers, buytower.id);
-        buildOn = false;
-        image_index = 0;
     }
 }
 
-if !keyboard_check(vk_shift)
-{
-    for (var i = 0; i &lt; 5; i += 1)
+if (!keyboard_check(vk_shift))
+{   
+    with(obj_BuyItemBox)
     {
-        global.buyToweButtons[i].image_index = 0;
+        image_index = 0;
     }
-    
-    for (var i = 0; i &lt; 14; i += 1)
-    {
-        for (var i2 = 0; i2 &lt; 20; i2 += 1)
-        {
-            global.ds[i,i2].image_index = 0;
-        }
+   with(obj_Square)
+   {
+       image_index = 0;
    }
 }
 </string>

@@ -55,6 +55,7 @@
     <background>background\bgr_background3</background>
     <background>background\bgr_background4</background>
     <background>background\background5</background>
+    <background>background\bgr_tiled_sea</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_level1_upper</path>

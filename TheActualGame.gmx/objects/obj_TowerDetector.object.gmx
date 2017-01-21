@@ -98,7 +98,7 @@ targetProgress = 0;
           <argument>
             <kind>1</kind>
             <string>targetProgress = 0;
-targetID = 0;
+targetID = noone;
 with(obj_Tortoise)
 {
     if(distance_to_object(other) &lt; 120)
@@ -106,32 +106,18 @@ with(obj_Tortoise)
         if(other.targetProgress &lt; instspeed * age)
         {
             other.targetProgress = instspeed * age;
-            other.targetID = id;
+            other.targetID = self;
         }
     }
 }
-if (targetID != 0)
+if (targetID != noone)
 {
     bullet = instance_create(x+20, y+20, obj_Bullet);
-    bullet.target = targetID;
+    with(bullet)
+    {
+        target = other.targetID;
+    }
 }
-
-
-/*if (collision_circle(x-20, y-20, 120, instance_find(obj_Tortoise,targetID), true, true) == noone)
-{
-    targetID = 0;
-}
-collider = collision_circle(x+20, y+20, 120, obj_Tortoise, true, true);
-if (collider != noone &amp;&amp; targetID == 0)
-{
-    targetID = collider.id;
-}
-
-if (targetID != 0)
-{
-    bullet = instance_create(x+20, y+20, obj_Bullet);
-    bullet.target = targetID;
-}*/
 </string>
           </argument>
         </arguments>

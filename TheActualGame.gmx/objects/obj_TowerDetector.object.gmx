@@ -79,7 +79,7 @@ image_speed = 0;
 }
 if(/* instance_exists(target) &amp;&amp;  */ collision_circle( x, y, 100, target, false, true ) != noone)
 {
-    bullet = instance_create(x+20, y+20, obj_Bullet);
+    bullet = instance_create(x, y, obj_Bullet);
     bullet.target = target;
 }
 else

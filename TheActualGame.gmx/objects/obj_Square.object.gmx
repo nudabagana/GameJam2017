@@ -59,16 +59,22 @@ self.buildOn = true;
 
 if ( buildOn)
 {
-    buildOn = false;
-    instance_create(x,y,obj_Tower1);
+    var towerChosen = false;
+    for (var i = 0; i &lt; 5; i += 1)
+    {
+        if ( global.buyToweButtons[i].image_index == 1)
+        {
+            towerChosen = true;
+            var towerIndex = i;
+        }
+    }
+    if ( towerChosen) 
+    {
+        instance_create(x,y,global.buyToweObj[towerIndex]);
+        buildOn = false;
+    }
 }
 
-/*if (global.towerSelected &gt; 0)
-    {
-        var i =instance_find(obj_BuyItemBox,global.towerSelected);
-        i.image_index = 0;
-        global.towerSelected = 0;
-    }*/
 for (var i = 0; i &lt; 5; i += 1)
 {
     global.buyToweButtons[i].image_index = 0;

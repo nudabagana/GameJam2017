@@ -46,6 +46,8 @@ for (i = 0; i &lt; 14; i += 1)
     global.ds[i,19].buildOn = false;
 }
 
+global.allRoomTowers = ds_list_create();
+
 global.buyToweButtons[0] = instance_create(820,160,obj_BuyItemBox);
 global.buyToweButtons[1] = instance_create(820,240,obj_BuyItemBox);
 global.buyToweButtons[2] = instance_create(820,320,obj_BuyItemBox);

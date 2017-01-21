@@ -53,13 +53,8 @@
   <instances>
     <instance objName="obj_ScoreLine" x="0" y="0" name="inst_F1BEAA81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TowerMenu" x="800" y="40" name="inst_AD743BD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyItemBox" x="820" y="160" name="inst_D9AABB59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyItemBox" x="820" y="240" name="inst_D709D71C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyItemBox" x="820" y="320" name="inst_17F4EF0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyItemBox" x="820" y="400" name="inst_6BCA74D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyItemBox" x="820" y="480" name="inst_7BD7BC27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BuyTower1" x="830" y="170" name="inst_F9D2FF7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Tower1" x="640" y="240" name="inst_069B0442" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Coral" x="736" y="257" name="inst_A6B5D4AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

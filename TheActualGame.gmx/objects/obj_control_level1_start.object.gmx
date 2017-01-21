@@ -39,6 +39,110 @@ for (i = 0; i &lt; 14; i += 1)
         global.ds[i,i2] = instance_create(startX + squareSize * i2, startY + squareSize * i, obj_Square);
         }
    }
+for (i = 0; i &lt; 14; i += 1)
+{
+    global.ds[i,0].buildOn = false;
+    global.ds[i,18].buildOn = false;
+    global.ds[i,19].buildOn = false;
+}
+
+global.buyToweButtons[0] = instance_create(820,160,obj_BuyItemBox);
+global.buyToweButtons[1] = instance_create(820,240,obj_BuyItemBox);
+global.buyToweButtons[2] = instance_create(820,320,obj_BuyItemBox);
+global.buyToweButtons[3] = instance_create(820,400,obj_BuyItemBox);
+global.buyToweButtons[4] = instance_create(820,480,obj_BuyItemBox);
+
+
+
+global.ds[6,0].buildOn = false;
+global.ds[6,1].buildOn = false;
+global.ds[6,2].buildOn = false;
+global.ds[7,2].buildOn = false;
+global.ds[8,2].buildOn = false;
+global.ds[8,3].buildOn = false;
+global.ds[8,4].buildOn = false;
+
+global.ds[9,4].buildOn = false;
+global.ds[10,4].buildOn = false;
+global.ds[10,5].buildOn = false;
+
+global.ds[11,5].buildOn = false;
+global.ds[12,5].buildOn = false;
+global.ds[12,6].buildOn = false;
+global.ds[12,7].buildOn = false;
+global.ds[12,8].buildOn = false;
+
+global.ds[12,8].buildOn = false;
+global.ds[11,8].buildOn = false;
+global.ds[10,8].buildOn = false;
+global.ds[9,8].buildOn = false;
+global.ds[8,8].buildOn = false;
+global.ds[7,8].buildOn = false;
+
+global.ds[7,9].buildOn = false;
+global.ds[7,10].buildOn = false;
+
+global.ds[8,10].buildOn = false;
+global.ds[9,10].buildOn = false;
+
+global.ds[9,11].buildOn = false;
+
+global.ds[10,11].buildOn = false;
+global.ds[11,11].buildOn = false;
+
+global.ds[11,12].buildOn = false;
+global.ds[11,13].buildOn = false;
+
+global.ds[10,13].buildOn = false;
+global.ds[9,13].buildOn = false;
+
+global.ds[9,14].buildOn = false;
+
+global.ds[8,14].buildOn = false;
+global.ds[7,14].buildOn = false;
+global.ds[6,14].buildOn = false;
+
+global.ds[6,15].buildOn = false;
+global.ds[6,16].buildOn = false;
+global.ds[6,17].buildOn = false;
+// top part
+global.ds[7,4].buildOn = false;
+global.ds[7,5].buildOn = false;
+
+global.ds[6,5].buildOn = false;
+global.ds[5,5].buildOn = false;
+
+global.ds[5,6].buildOn = false;
+
+global.ds[4,6].buildOn = false;
+
+global.ds[4,7].buildOn = false;
+
+global.ds[3,7].buildOn = false;
+global.ds[2,7].buildOn = false;
+
+global.ds[2,8].buildOn = false;
+global.ds[2,9].buildOn = false;
+global.ds[2,10].buildOn = false;
+global.ds[2,11].buildOn = false;
+
+global.ds[3,11].buildOn = false;
+global.ds[4,11].buildOn = false;
+
+global.ds[4,12].buildOn = false;
+
+global.ds[5,12].buildOn = false;
+
+global.ds[5,13].buildOn = false;
+
+global.ds[6,13].buildOn = false;
+
+global.ds[6,14].buildOn = false;
+global.ds[6,15].buildOn = false;
+global.ds[6,16].buildOn = false;
+global.ds[6,17].buildOn = false;
+
+
 </string>
           </argument>
         </arguments>

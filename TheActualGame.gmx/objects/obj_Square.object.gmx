@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0;
+self.buildOn = true;
 </string>
           </argument>
         </arguments>
@@ -55,7 +56,23 @@
         global.ds[i,i2].image_index = 0;
         }
    }
-instance_create(x,y,obj_Tower1);
+
+if ( buildOn)
+{
+    buildOn = false;
+    instance_create(x,y,obj_Tower1);
+}
+
+/*if (global.towerSelected &gt; 0)
+    {
+        var i =instance_find(obj_BuyItemBox,global.towerSelected);
+        i.image_index = 0;
+        global.towerSelected = 0;
+    }*/
+for (var i = 0; i &lt; 5; i += 1)
+{
+    global.buyToweButtons[i].image_index = 0;
+}
 
 </string>
           </argument>

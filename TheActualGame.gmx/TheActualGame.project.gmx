@@ -15,18 +15,33 @@
     </sprites>
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Crystal</sprite>
-    <sprite>sprites\spr_Crab</sprite>
     <sprite>sprites\spr_Bullet</sprite>
-    <sprite>sprites\spr_Coral</sprite>
     <sprites name="Towers">
-      <sprite>sprites\spr_Tower1</sprite>
       <sprite>sprites\spr_TowerDetector</sprite>
+      <sprite>sprites\spr_tower1</sprite>
     </sprites>
     <sprite>sprites\spr_Grid</sprite>
     <sprites name="GUI">
       <sprite>sprites\spr_ScoreLine</sprite>
       <sprite>sprites\spr_TowerMenu</sprite>
       <sprite>sprites\spr_BuyItemBox</sprite>
+    </sprites>
+    <sprites name="Game Sprites">
+      <sprites name="Characters">
+        <sprite>sprites\spr_Tortoise</sprite>
+        <sprite>sprites\spr_Seagul</sprite>
+        <sprite>sprites\spr_Crab</sprite>
+      </sprites>
+      <sprites name="Backgrounds">
+        <sprite>sprites\background1</sprite>
+        <sprite>sprites\background2</sprite>
+        <sprite>sprites\background3</sprite>
+        <sprite>sprites\background4</sprite>
+      </sprites>
+      <sprites name="Static objects">
+        <sprite>sprites\spr_sand_path</sprite>
+        <sprite>sprites\spr_Coral</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">

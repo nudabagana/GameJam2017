@@ -59,7 +59,7 @@ self.buildOn = true;
             //buytower = instance_create(other.x,other.y,tower);
             instance_create(other.x,other.y,tower);
             other.buildOn = false;
-            other.image_index = 0;
+            other.image_index = 1;
             break;
         }
     }

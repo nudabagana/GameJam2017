@@ -100,7 +100,6 @@
     <instance objName="obj_Sand_path1" x="0" y="280" name="inst_02F39264" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path1" x="720" y="280" name="inst_70EF394F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path1" x="760" y="280" name="inst_B1F3BFC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Sand_path1" x="680" y="240" name="inst_D95FDC00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path1" x="720" y="240" name="inst_F57A53CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path1" x="760" y="240" name="inst_19EF4769" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="40" y="40" name="inst_B7C38E45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -307,6 +306,10 @@
     <instance objName="obj_Sand_path3" x="440" y="200" name="inst_1BFD440D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path3" x="80" y="360" name="inst_09DA838D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path3" x="120" y="360" name="inst_5E2FDBE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sand_path3" x="760" y="320" name="inst_C7E53549" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sand_path2" x="680" y="320" name="inst_F652EAF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sand_path1" x="720" y="320" name="inst_79CAE83E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sand_path3" x="680" y="240" name="inst_B87F445A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

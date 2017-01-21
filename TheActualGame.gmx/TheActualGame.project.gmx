@@ -41,6 +41,7 @@
         <sprite>sprites\spr_sand_path3</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_OnlyOne</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck</background>

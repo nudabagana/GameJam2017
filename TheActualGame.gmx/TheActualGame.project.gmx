@@ -47,7 +47,8 @@
     <background>background\bgr_background4</background>
   </backgrounds>
   <paths name="paths">
-    <path>paths\path0</path>
+    <path>paths\path_level1_upper</path>
+    <path>paths\path_level1_lower</path>
   </paths>
   <scripts name="scripts">
     <scripts name="Main Menu">

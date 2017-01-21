@@ -11,9 +11,9 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -25,35 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>existingfor</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>speeded</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>5</string>
+            <string>instspeed = 4;
+age = 0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -205,7 +179,7 @@ else
     currentSquareY = currentSquareY + 1;
     movingDown = true;
 }
-move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,4);
+move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,instspeed);
 }
 </string>
           </argument>
@@ -215,25 +189,22 @@ move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[current
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>existingfor</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
+            <string>age += 1;
+</string>
           </argument>
         </arguments>
       </action>

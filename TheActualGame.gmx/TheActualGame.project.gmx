@@ -16,6 +16,7 @@
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Crystal</sprite>
     <sprite>sprites\spr_Crab</sprite>
+    <sprite>sprites\spr_Bullet</sprite>
     <sprite>sprites\spr_Coral</sprite>
     <sprites name="Towers">
       <sprite>sprites\spr_Tower1</sprite>
@@ -27,7 +28,6 @@
       <sprite>sprites\spr_TowerMenu</sprite>
       <sprite>sprites\spr_BuyItemBox</sprite>
     </sprites>
-    <sprite>sprites\spr_Bullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck</background>

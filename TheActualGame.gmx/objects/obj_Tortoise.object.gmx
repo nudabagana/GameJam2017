@@ -91,7 +91,7 @@ else
     currentSquareY = currentSquareY + 1;
     movingDown = true;
 }
-move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,speeded);
+move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,instspeed);
 </string>
           </argument>
         </arguments>

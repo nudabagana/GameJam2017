@@ -59,6 +59,7 @@
       <object>objects\obj_ScoreLine</object>
       <object>objects\obj_TowerMenu</object>
       <object>objects\obj_BuyItemBox</object>
+      <object>objects\obj_BuyTower1</object>
     </objects>
   </objects>
   <rooms name="rooms">

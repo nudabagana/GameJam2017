@@ -53,7 +53,6 @@
   <instances>
     <instance objName="obj_start" x="416" y="288" name="inst_C86F6EFE" locked="0" code="" scaleX="1.04260647296906" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="416" y="544" name="inst_67B9E0A8" locked="0" code="" scaleX="1.03999996185303" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="416" y="128" name="inst_69ED9E42" locked="0" code="" scaleX="1.2039999961853" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_highscore" x="416" y="416" name="inst_1F770DD8" locked="0" code="" scaleX="1.03999996185303" scaleY="1.09090912342072" colour="4294967295" rotation="0"/>
     <instance objName="obj_cursor" x="32" y="224" name="inst_83A9BE5C" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
   </instances>

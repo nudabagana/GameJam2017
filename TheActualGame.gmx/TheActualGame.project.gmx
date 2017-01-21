@@ -12,6 +12,7 @@
       <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_highscore</sprite>
       <sprite>sprites\spr_cursor</sprite>
+      <sprite>sprites\spr_Menu_Crab</sprite>
     </sprites>
     <sprite>sprites\spr_Crystal</sprite>
     <sprite>sprites\spr_Bullet</sprite>
@@ -32,10 +33,10 @@
         <sprite>sprites\spr_Tortoise</sprite>
       </sprites>
       <sprites name="Backgrounds">
-        <sprite>sprites\background1</sprite>
-        <sprite>sprites\background2</sprite>
-        <sprite>sprites\background3</sprite>
-        <sprite>sprites\background4</sprite>
+        <sprite>sprites\spr_background1</sprite>
+        <sprite>sprites\spr_background2</sprite>
+        <sprite>sprites\spr_background3</sprite>
+        <sprite>sprites\spr_background4</sprite>
       </sprites>
       <sprites name="Static objects">
         <sprite>sprites\spr_sand_path</sprite>
@@ -45,6 +46,10 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bck</background>
+    <background>background\bgr_background1</background>
+    <background>background\bgr_background2</background>
+    <background>background\bgr_background3</background>
+    <background>background\bgr_background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -59,6 +64,8 @@
       <object>objects\obj_exit</object>
       <object>objects\obj_highscore</object>
       <object>objects\obj_cursor</object>
+      <object>objects\obj_title</object>
+      <object>objects\obj_Menu_Crab</object>
     </objects>
     <object>objects\obj_Square</object>
     <object>objects\obj_Tortoise</object>

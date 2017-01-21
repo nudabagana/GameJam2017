@@ -144,7 +144,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Enemy">
+    <event eventtype="4" ename="obj_Tortoise">
       <action>
         <libid>1</libid>
         <id>203</id>

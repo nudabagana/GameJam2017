@@ -39,6 +39,7 @@ for (i = 0; i &lt; 14; i += 1)
         global.ds[i,i2] = instance_create(startX + squareSize * i2, startY + squareSize * i, obj_Square);
         }
    }
+   
 for (i = 0; i &lt; 14; i += 1)
 {
     global.ds[i,0].buildOn = false;

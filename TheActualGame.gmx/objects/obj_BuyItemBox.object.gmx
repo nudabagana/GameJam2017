@@ -50,16 +50,13 @@ self.tower = noone;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>for (var i = 0; i &lt; 14; i += 1)
-   {
-   for (var i2 = 0; i2 &lt; 20; i2 += 1)
-        {
-        if (global.ds[i,i2].buildOn == true)
-            {
-            global.ds[i,i2].image_index = 3;
-            }
-        }
-   }
+            <string>with(obj_Square)
+{
+    if (buildOn == true)
+    {
+        image_index = 3;
+    }
+}
 with(obj_BuyItemBox)
 {
     image_index = 0;

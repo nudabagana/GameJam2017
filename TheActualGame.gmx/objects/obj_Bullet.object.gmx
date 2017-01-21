@@ -99,7 +99,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_towards_point( target.x, target.y, 30 );
+            <string>if(target != noone)
+{
+    move_towards_point( target.x, target.y, 30 );
+}
+else
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

@@ -26,6 +26,7 @@
       <sprite>sprites\spr_ScoreLine</sprite>
       <sprite>sprites\spr_TowerMenu</sprite>
       <sprite>sprites\spr_BuyItemBox</sprite>
+      <sprite>sprites\spr_BarHP</sprite>
     </sprites>
     <sprites name="Game Sprites">
       <sprites name="Characters">

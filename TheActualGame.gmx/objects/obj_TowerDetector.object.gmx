@@ -109,7 +109,7 @@ image_speed = 0;
 {
     target = collision_circle( x, y, 120, obj_Enemy, false, true );
 }
-if(/* instance_exists(target) &amp;&amp;  */ collision_circle( x, y, 100, target, false, true ) != noone)
+if(/* instance_exists(target) &amp;&amp;  */ collision_circle( x, y, 120, target, false, true ) != noone)
 {
     bullet = instance_create(x, y, obj_Bullet);
     bullet.target = target;

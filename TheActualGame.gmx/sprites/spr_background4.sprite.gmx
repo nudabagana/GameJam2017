@@ -20,6 +20,6 @@
   <width>800</width>
   <height>600</height>
   <frames>
-    <frame index="0">images\background3_0.png</frame>
+    <frame index="0">images\spr_background4_0.png</frame>
   </frames>
 </sprite>

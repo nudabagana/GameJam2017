@@ -57,9 +57,13 @@ self.buildOn = true;
         if ( image_index == 1)
         {
             //buytower = instance_create(other.x,other.y,tower);
-            instance_create(other.x,other.y,tower);
-            other.buildOn = false;
-            other.image_index = 1;
+            if (obj_control_level1_start.currentCash - cost &gt;= 0)
+            {
+                obj_control_level1_start.currentCash -= cost;
+                instance_create(other.x,other.y,tower);
+                other.buildOn = false;
+                other.image_index = 1;
+            }
             break;
         }
     }

@@ -51,11 +51,11 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_control_level1_start" x="1000" y="560" name="inst_9F83EAAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_control_level1_start" x="960" y="560" name="inst_9F83EAAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ScoreLine" x="0" y="0" name="inst_F1BEAA81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_TowerMenu" x="800" y="40" name="inst_AD743BD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coral" x="705" y="233" name="inst_A6B5D4AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyItemBox" x="820" y="160" name="inst_BFA4E69C" locked="0" code="self.tower = obj_Tower1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_BuyItemBox" x="820" y="160" name="inst_BFA4E69C" locked="0" code="self.tower = obj_Tower1;&#xA;self.cost = 120;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BuyItemBox" x="820" y="240" name="inst_6CF2C95A" locked="0" code="self.tower = noone;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BuyItemBox" x="820" y="320" name="inst_4175A171" locked="0" code="self.tower = noone;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BuyItemBox" x="820" y="400" name="inst_A7F15228" locked="0" code="self.tower = noone;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -313,6 +313,8 @@
     <instance objName="obj_Sand_path3" x="680" y="240" name="inst_B87F445A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_HealthBar" x="7" y="6" name="inst_DE1A4843" locked="0" code="" scaleX="2.5" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
     <instance objName="obj_Cave" x="19" y="302" name="inst_61778E14" locked="0" code="" scaleX="0.899999976158142" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Corals" x="820" y="62" name="inst_6C11B89F" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Coral_Logo" x="912" y="53" name="inst_FAD0F5FB" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

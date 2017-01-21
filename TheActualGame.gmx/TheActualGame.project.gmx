@@ -27,6 +27,10 @@
       <sprite>sprites\spr_TowerMenu</sprite>
       <sprite>sprites\spr_BuyItemBox</sprite>
       <sprite>sprites\spr_Health_Bar</sprite>
+      <sprites name="Text">
+        <sprite>sprites\spr_Corals</sprite>
+        <sprite>sprites\spr_Coral_Logo</sprite>
+      </sprites>
     </sprites>
     <sprites name="Game Sprites">
       <sprites name="Characters">
@@ -61,6 +65,9 @@
       <script>scripts\scr_mouse_hover.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_Score</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
     <objects name="Main Menu">
@@ -88,6 +95,11 @@
       <object>objects\obj_BuyItemBox</object>
       <object>objects\obj_BuyTower1</object>
       <object>objects\obj_HealthBar</object>
+      <objects name="Text">
+        <object>objects\obj_Corals</object>
+        <object>objects\obj_Coral_Logo</object>
+        <object>objects\obj_Displayer</object>
+      </objects>
     </objects>
     <object>objects\obj_Sand_path1</object>
     <object>objects\obj_Enemy</object>

@@ -85,6 +85,7 @@
       <object>objects\obj_BuyTower1</object>
     </objects>
     <object>objects\obj_Sand_path1</object>
+    <object>objects\obj_Enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

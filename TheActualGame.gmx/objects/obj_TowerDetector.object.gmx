@@ -75,7 +75,7 @@ image_speed = 0;
             <kind>1</kind>
             <string>if (!instance_exists(target))
 {
-    target = collision_circle( x, y, 120, obj_Tortoise, false, true );
+    target = collision_circle( x, y, 120, obj_Enemy, false, true );
 }
 if(/* instance_exists(target) &amp;&amp;  */ collision_circle( x, y, 100, target, false, true ) != noone)
 {

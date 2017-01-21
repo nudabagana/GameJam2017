@@ -13,7 +13,6 @@
       <sprite>sprites\spr_highscore</sprite>
       <sprite>sprites\spr_cursor</sprite>
     </sprites>
-    <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Crystal</sprite>
     <sprite>sprites\spr_Bullet</sprite>
     <sprites name="Towers">
@@ -28,9 +27,9 @@
     </sprites>
     <sprites name="Game Sprites">
       <sprites name="Characters">
-        <sprite>sprites\spr_Tortoise</sprite>
         <sprite>sprites\spr_Seagul</sprite>
         <sprite>sprites\spr_Crab</sprite>
+        <sprite>sprites\spr_Tortoise</sprite>
       </sprites>
       <sprites name="Backgrounds">
         <sprite>sprites\background1</sprite>
@@ -62,7 +61,7 @@
       <object>objects\obj_cursor</object>
     </objects>
     <object>objects\obj_Square</object>
-    <object>objects\obj_Enemy</object>
+    <object>objects\obj_Tortoise</object>
     <object>objects\obj_Crystal</object>
     <object>objects\obj_Coral</object>
     <object>objects\obj_Crab</object>

@@ -310,6 +310,8 @@
     <instance objName="obj_Sand_path2" x="680" y="320" name="inst_F652EAF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path1" x="720" y="320" name="inst_79CAE83E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path3" x="680" y="240" name="inst_B87F445A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HealthBar" x="7" y="6" name="inst_DE1A4843" locked="0" code="" scaleX="2.5" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
+    <instance objName="obj_control_level1_start" x="760" y="40" name="inst_D78A1272" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.ds = ds_grid_create(14,20);
-ds_grid_clear(global.ds,0);
+            <string>//global.ds = ds_grid_create(14,20);
+//ds_grid_clear(global.ds,0);
 
 startX = 0;
 startY = 40;
 squareSize = 40;
-
+/*
 for (i = 0; i &lt; 14; i += 1)
    {
    for (i2 = 0; i2 &lt; 20; i2 += 1)
@@ -135,6 +135,7 @@ global.ds[6,14].buildOn = false;
 global.ds[6,15].buildOn = false;
 global.ds[6,16].buildOn = false;
 global.ds[6,17].buildOn = false;
+*/
 </string>
           </argument>
         </arguments>
@@ -205,7 +206,7 @@ global.ds[6,17].buildOn = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(global.ds[6,0].x,global.ds[6,0].y,obj_Tortoise);
+            <string>instance_create(0,280,obj_Tortoise);
 </string>
           </argument>
         </arguments>

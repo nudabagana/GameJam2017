@@ -46,7 +46,7 @@
       <object>objects\obj_highscore</object>
       <object>objects\obj_cursor</object>
     </objects>
-    <object>objects\Title</object>
+    <object>objects\obj_Square</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Crystal</object>
     <object>objects\obj_Coral</object>

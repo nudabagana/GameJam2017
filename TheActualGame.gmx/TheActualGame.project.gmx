@@ -69,6 +69,7 @@
       <object>objects\obj_Menu_Coral</object>
     </objects>
     <object>objects\obj_Square</object>
+    <object>objects\obj_Bullet</object>
     <object>objects\obj_Tortoise</object>
     <object>objects\obj_Crystal</object>
     <object>objects\obj_Coral</object>
@@ -83,7 +84,6 @@
       <object>objects\obj_BuyItemBox</object>
       <object>objects\obj_BuyTower1</object>
     </objects>
-    <object>objects\obj_Bullet</object>
     <object>objects\obj_Sand_path1</object>
   </objects>
   <rooms name="rooms">

@@ -98,7 +98,7 @@
             <kind>1</kind>
             <string>if(instance_exists(target))
 {
-    move_towards_point( target.x + 20, target.y + 20, 10 );
+    move_towards_point( target.x, target.y, 10 );
 }
 else
 {

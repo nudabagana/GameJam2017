@@ -27,6 +27,7 @@
       <sprite>sprites\spr_TowerMenu</sprite>
       <sprite>sprites\spr_BuyItemBox</sprite>
     </sprites>
+    <sprite>sprites\spr_Bullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck</background>
@@ -46,10 +47,10 @@
       <object>objects\obj_cursor</object>
     </objects>
     <object>objects\Title</object>
-    <object>objects\obj_Square</object>
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Crystal</object>
     <object>objects\obj_Coral</object>
+    <object>objects\obj_Square</object>
     <object>objects\obj_Crab</object>
     <objects name="Towers">
       <object>objects\obj_Tower1</object>
@@ -61,6 +62,7 @@
       <object>objects\obj_BuyItemBox</object>
       <object>objects\obj_BuyTower1</object>
     </objects>
+    <object>objects\obj_Bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

@@ -26,7 +26,7 @@
       <sprite>sprites\spr_ScoreLine</sprite>
       <sprite>sprites\spr_TowerMenu</sprite>
       <sprite>sprites\spr_BuyItemBox</sprite>
-      <sprite>sprites\spr_BarHP</sprite>
+      <sprite>sprites\spr_Health_Bar</sprite>
     </sprites>
     <sprites name="Game Sprites">
       <sprites name="Characters">
@@ -84,6 +84,7 @@
       <object>objects\obj_TowerMenu</object>
       <object>objects\obj_BuyItemBox</object>
       <object>objects\obj_BuyTower1</object>
+      <object>objects\obj_HealthBar</object>
     </objects>
     <object>objects\obj_Sand_path1</object>
     <object>objects\obj_Enemy</object>

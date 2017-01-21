@@ -49,15 +49,7 @@ self.buildOn = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>for (var i = 0; i &lt; 14; i += 1)
-   {
-   for (var i2 = 0; i2 &lt; 20; i2 += 1)
-        {
-        global.ds[i,i2].image_index = 0;
-        }
-   }
-
-if ( buildOn)
+            <string>if ( buildOn)
 {
     var towerChosen = false;
     for (var i = 0; i &lt; 5; i += 1)
@@ -70,16 +62,28 @@ if ( buildOn)
     }
     if ( towerChosen) 
     {
-        instance_create(x,y,global.buyToweObj[towerIndex]);
+        buytower = instance_create(x,y,global.buyToweObj[towerIndex]);
+        ds_list_add(global.allRoomTowers, buytower.id);
         buildOn = false;
+        image_index = 0;
     }
 }
 
-for (var i = 0; i &lt; 5; i += 1)
+if !keyboard_check(vk_shift)
 {
-    global.buyToweButtons[i].image_index = 0;
+    for (var i = 0; i &lt; 5; i += 1)
+    {
+        global.buyToweButtons[i].image_index = 0;
+    }
+    
+    for (var i = 0; i &lt; 14; i += 1)
+    {
+        for (var i2 = 0; i2 &lt; 20; i2 += 1)
+        {
+            global.ds[i,i2].image_index = 0;
+        }
+   }
 }
-
 </string>
           </argument>
         </arguments>

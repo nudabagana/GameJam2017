@@ -100,7 +100,7 @@
 {
     with(obj_Tortoise)
     {
-        if(point_distance(x+20, y+20, other.x, other.y) &lt; 120)
+        if(point_distance(x, y, other.x, other.y) &lt; 120)
         {
             other.target = self;
         }
@@ -112,7 +112,7 @@ else
     {
         bullet = instance_create(x+20, y+20, obj_Bullet);
         bullet.target = target;
-        target.health--;
+        target.health -= 1;
         if(target.health == 0)
         {
             target = noone;

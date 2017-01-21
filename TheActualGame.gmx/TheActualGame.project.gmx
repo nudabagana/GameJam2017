@@ -14,7 +14,6 @@
       <sprite>sprites\spr_cursor</sprite>
       <sprite>sprites\spr_Menu_Crab</sprite>
       <sprite>sprites\spr_Menu_Coral</sprite>
-      <sprite>sprites\spr_gameName</sprite>
     </sprites>
     <sprite>sprites\spr_Crystal</sprite>
     <sprite>sprites\spr_Bullet</sprite>
@@ -48,7 +47,6 @@
     <background>background\bgr_background2</background>
     <background>background\bgr_background3</background>
     <background>background\bgr_background4</background>
-    <background>background\bgr_background5</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_level1_upper</path>

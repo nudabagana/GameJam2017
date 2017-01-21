@@ -11,30 +11,6 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>health</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>3</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -51,6 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0.5;
 instspeed = 4;
+health = 3;
 if ( random(10) &gt; 5)
 {
     path_start(path_level1_upper, 4, path_action_stop, true);
@@ -59,28 +36,6 @@ else
 {
     path_start(path_level1_lower, 4, path_action_stop, true);
 }
-
-
-/*self.currentSquareY = global.startSquareY;
-self.currentSquareX = global.startSquareX;
-self.movingDown = false;
-
-if ( global.ds[currentSquareY,currentSquareX + 1].isPath == true)
-{
-    currentSquareX = currentSquareX + 1;
-    movingDown = false;
-} 
-else if ( global.ds[currentSquareY - 1,currentSquareX].isPath == true &amp;&amp; movingDown == false)
-{
-    currentSquareY = currentSquareY - 1;
-    movingDown = false;
-}
-else
-{
-    currentSquareY = currentSquareY + 1;
-    movingDown = true;
-}
-move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,instspeed);*/
 </string>
           </argument>
         </arguments>

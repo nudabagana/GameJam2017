@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>target = noone;
+image_speed = 0;
 </string>
           </argument>
         </arguments>
@@ -46,34 +47,10 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>image_speed</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
             <string>0</string>
           </argument>
         </arguments>
@@ -96,28 +73,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(target == noone)
+            <string>if (!instance_exists(target))
 {
-    with(obj_Tortoise)
-    {
-        if(point_distance(x, y, other.x, other.y) &lt; 120)
-        {
-            other.target = self;
-        }
-    }
+    target = collision_circle( x, y, 100, obj_Tortoise, false, true );
 }
-else
+if(instance_exists(target))
 {
-    if(target.health &gt; 0)
-    {
-        bullet = instance_create(x+20, y+20, obj_Bullet);
-        bullet.target = target;
-        target.health -= 1;
-        if(target.health == 0)
-        {
-            target = noone;
-        }
-    }
+    bullet = instance_create(x+20, y+20, obj_Bullet);
+    bullet.target = target;
 }
 </string>
           </argument>

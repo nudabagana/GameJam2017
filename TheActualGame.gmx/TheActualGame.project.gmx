@@ -39,6 +39,7 @@
         <sprite>sprites\spr_Coral</sprite>
         <sprite>sprites\spr_sand_path2</sprite>
         <sprite>sprites\spr_sand_path3</sprite>
+        <sprite>sprites\spr_Cave</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -91,6 +92,7 @@
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Sand_path2</object>
     <object>objects\obj_Sand_path3</object>
+    <object>objects\obj_Cave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

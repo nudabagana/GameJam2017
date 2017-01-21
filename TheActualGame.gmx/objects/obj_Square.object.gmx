@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>image_speed = 0;
 self.buildOn = true;
-self.isPath = false;
 </string>
           </argument>
         </arguments>

@@ -72,7 +72,17 @@ age = 0;
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.5;
-self.currentSquareY = global.startSquareY;
+if ( random(10) &gt; 5)
+{
+    path_start(path_level1_upper, 4, path_action_stop, true);
+}
+else
+{
+    path_start(path_level1_lower, 4, path_action_stop, true);
+}
+
+
+/*self.currentSquareY = global.startSquareY;
 self.currentSquareX = global.startSquareX;
 self.movingDown = false;
 
@@ -91,7 +101,7 @@ else
     currentSquareY = currentSquareY + 1;
     movingDown = true;
 }
-move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,instspeed);
+move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,instspeed);*/
 </string>
           </argument>
         </arguments>
@@ -162,7 +172,8 @@ move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[current
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ( collision_point(x,y,obj_Square,false, false) != global.ds[currentSquareY ,currentSquareX])
+            <string>/*
+if ( collision_point(x,y,obj_Square,false, false) != global.ds[currentSquareY ,currentSquareX])
 {
 if ( global.ds[currentSquareY,currentSquareX + 1].isPath == true)
 {
@@ -180,7 +191,7 @@ else
     movingDown = true;
 }
 move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[currentSquareY ,currentSquareX].y,instspeed);
-}
+}*/
 </string>
           </argument>
         </arguments>
@@ -207,74 +218,6 @@ move_towards_point(global.ds[currentSquareY ,currentSquareX].x,global.ds[current
 </string>
           </argument>
         </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_Bullet">
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>health</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>health</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>

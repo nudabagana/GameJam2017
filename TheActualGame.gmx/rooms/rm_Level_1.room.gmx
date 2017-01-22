@@ -248,6 +248,7 @@
     <instance objName="obj_Sand_path3" x="320" y="440" name="inst_5E4D0B9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Sand_path3" x="320" y="120" name="inst_D919E7E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_HealthBar" x="7" y="6" name="inst_DE1A4843" locked="0" code="" scaleX="2.5" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
+    <instance objName="obj_DisplayTime" x="760" y="80" name="inst_89B38762" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Cave" x="20" y="301" name="inst_61778E14" locked="0" code="" scaleX="0.899999976158142" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
     <instance objName="obj_Corals" x="820" y="62" name="inst_6C11B89F" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coral_Logo" x="912" y="53" name="inst_FAD0F5FB" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
@@ -310,6 +311,7 @@
     <instance objName="obj_Sand_path5" x="800" y="360" name="inst_83738719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_Sand_path8" x="720" y="360" name="inst_4F4AE430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Sand_path5" x="680" y="360" name="inst_E486EA9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_Displayer" x="810" y="110" name="inst_EBBB93BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

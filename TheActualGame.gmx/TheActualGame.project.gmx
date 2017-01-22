@@ -79,6 +79,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_Score</font>
+    <font>fonts\font_ScoreResize</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
@@ -111,6 +112,7 @@
         <object>objects\obj_Corals</object>
         <object>objects\obj_Coral_Logo</object>
         <object>objects\obj_Displayer</object>
+        <object>objects\obj_DisplayTime</object>
       </objects>
     </objects>
     <object>objects\obj_Sand_path1</object>

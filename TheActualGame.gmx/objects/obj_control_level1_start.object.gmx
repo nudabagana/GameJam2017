@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>coralHP = 5;
 currentCash = 310;
+draw_text(300, 300, "Time Left:");
 </string>
           </argument>
         </arguments>
@@ -315,7 +316,7 @@ currentCash = 310;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>30</string>
           </argument>
           <argument>
             <kind>4</kind>

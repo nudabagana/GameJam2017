@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0.5;
 instspeed = 4;
-myHP = 3;
+myHP = 7;
 if ( random(10) &gt; 5)
 {
     path_start(path_level1_upper, 4, path_action_stop, true);

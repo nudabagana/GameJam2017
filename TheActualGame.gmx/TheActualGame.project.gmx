@@ -37,13 +37,24 @@
         <sprite>sprites\spr_Seagul</sprite>
         <sprite>sprites\spr_Crab</sprite>
         <sprite>sprites\spr_Tortoise</sprite>
+        <sprite>sprites\spr_Bug</sprite>
       </sprites>
       <sprites name="Static objects">
         <sprite>sprites\spr_sand_path1</sprite>
         <sprite>sprites\spr_Coral</sprite>
         <sprite>sprites\spr_sand_path2</sprite>
         <sprite>sprites\spr_sand_path3</sprite>
+        <sprite>sprites\spr_sand_path4</sprite>
+        <sprite>sprites\spr_sand_path5</sprite>
+        <sprite>sprites\spr_sand_path6</sprite>
+        <sprite>sprites\spr_sand_path7</sprite>
+        <sprite>sprites\spr_sand_path8</sprite>
+        <sprite>sprites\spr_sand_path9</sprite>
+        <sprite>sprites\spr_sand_path10</sprite>
+        <sprite>sprites\spr_sand_path11</sprite>
+        <sprite>sprites\spr_sand_path12</sprite>
         <sprite>sprites\spr_Cave</sprite>
+        <sprite>sprites\sprite28</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_OnlyOne</sprite>
@@ -106,6 +117,15 @@
     <object>objects\obj_Enemy</object>
     <object>objects\obj_Sand_path2</object>
     <object>objects\obj_Sand_path3</object>
+    <object>objects\obj_Sand_path4</object>
+    <object>objects\obj_Sand_path5</object>
+    <object>objects\obj_Sand_path6</object>
+    <object>objects\obj_Sand_path7</object>
+    <object>objects\obj_Sand_path8</object>
+    <object>objects\obj_Sand_path9</object>
+    <object>objects\obj_Sand_path10</object>
+    <object>objects\obj_Sand_path11</object>
+    <object>objects\obj_Sand_path12</object>
     <object>objects\obj_Cave</object>
   </objects>
   <rooms name="rooms">

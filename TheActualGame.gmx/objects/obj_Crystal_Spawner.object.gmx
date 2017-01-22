@@ -3,7 +3,7 @@
   <spriteName>sprite29</spriteName>
   <solid>0</solid>
   <visible>0</visible>
-  <depth>0</depth>
+  <depth>-3</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>random(300)+300</string>
+            <string>random(120)</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -47,7 +47,7 @@
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
-        <isnot>-1</isnot>
+        <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>10</kind>
@@ -59,7 +59,7 @@
           </argument>
           <argument>
             <kind>4</kind>
-            <string>2</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -93,9 +93,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(true || obj_control_level1_start.inBattle = true)
+            <string>if(obj_control_level1_start.buildTime &lt;= 0)
 {
-instance_create(720,350,obj_Coral_Box);
+//instance_create(720+random(50),350,obj_Coral_Box);
+instance_create(obj_Crab.x-40,obj_Crab.y,obj_Coral_Box);
 }
 </string>
           </argument>
@@ -131,7 +132,7 @@ instance_create(720,350,obj_Coral_Box);
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>random(300)+300</string>
+            <string>random(120)</string>
           </argument>
           <argument>
             <kind>4</kind>

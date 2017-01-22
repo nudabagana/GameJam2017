@@ -318,7 +318,7 @@
     <instance objName="obj_Coral_Logo" x="945" y="315" name="inst_083A8624" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coral_Logo" x="945" y="395" name="inst_7662527D" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_Coral_Logo" x="945" y="475" name="inst_4A4F8AD9" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyTower2" x="835" y="247" name="inst_CF8C8286" locked="0" code="" scaleX="0.899999976158142" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
+    <instance objName="obj_BuyTower2" x="835" y="256" name="inst_CF8C8286" locked="0" code="" scaleX="0.899999976158142" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
     <instance objName="obj_skip" x="901" y="22" name="inst_4C1FD0F4" locked="0" code="" scaleX="0.699999988079071" scaleY="0.510204076766968" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

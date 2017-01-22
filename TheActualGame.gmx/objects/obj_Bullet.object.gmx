@@ -131,10 +131,11 @@ else
     with(other)
     {
         myHP--;
+        /*
         if(myHP &lt;= 0)
         {
             instance_destroy();
-        }    
+        }    */
     }
     instance_destroy();
 }

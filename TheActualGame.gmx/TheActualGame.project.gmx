@@ -22,6 +22,7 @@
       <sprite>sprites\spr_TowerDetector</sprite>
       <sprite>sprites\spr_tower1</sprite>
       <sprite>sprites\spr_Tower2</sprite>
+      <sprite>sprites\spr_TowerDetector2</sprite>
     </sprites>
     <sprite>sprites\spr_Grid</sprite>
     <sprites name="GUI">
@@ -100,13 +101,10 @@
       <object>objects\obj_Menu_Crab</object>
       <object>objects\obj_Menu_Coral</object>
     </objects>
-    <object>objects\obj_Square</object>
-    <object>objects\obj_Bullet</object>
-    <object>objects\obj_Tortoise</object>
     <object>objects\obj_Crystal</object>
-    <object>objects\obj_Coral</object>
     <object>objects\obj_Crab</object>
     <objects name="Towers">
+      <object>objects\obj_Bullet</object>
       <object>objects\obj_Tower1</object>
       <object>objects\obj_TowerDetector</object>
       <object>objects\obj_TowerDetector2</object>
@@ -126,22 +124,29 @@
       </objects>
       <object>objects\obj_BuyTower2</object>
     </objects>
-    <object>objects\obj_Sand_path1</object>
-    <object>objects\obj_Enemy</object>
-    <object>objects\obj_Sand_path2</object>
-    <object>objects\obj_Sand_path3</object>
-    <object>objects\obj_Sand_path4</object>
-    <object>objects\obj_Sand_path5</object>
-    <object>objects\obj_Sand_path6</object>
-    <object>objects\obj_Sand_path7</object>
-    <object>objects\obj_Sand_path8</object>
-    <object>objects\obj_Sand_path9</object>
-    <object>objects\obj_Sand_path10</object>
-    <object>objects\obj_Sand_path11</object>
-    <object>objects\obj_Sand_path12</object>
-    <object>objects\obj_Cave</object>
-    <object>objects\obj_Coral_Box</object>
     <object>objects\obj_Crystal_Spawner</object>
+    <objects name="Static_Map_Parts">
+      <object>objects\obj_Coral</object>
+      <object>objects\obj_Square</object>
+      <object>objects\obj_Coral_Box</object>
+      <object>objects\obj_Cave</object>
+      <object>objects\obj_Sand_path10</object>
+      <object>objects\obj_Sand_path6</object>
+      <object>objects\obj_Sand_path4</object>
+      <object>objects\obj_Sand_path3</object>
+      <object>objects\obj_Sand_path1</object>
+      <object>objects\obj_Sand_path2</object>
+      <object>objects\obj_Sand_path7</object>
+      <object>objects\obj_Sand_path8</object>
+      <object>objects\obj_Sand_path5</object>
+      <object>objects\obj_Sand_path9</object>
+      <object>objects\obj_Sand_path11</object>
+      <object>objects\obj_Sand_path12</object>
+    </objects>
+    <objects name="Enemies">
+      <object>objects\obj_Tortoise</object>
+      <object>objects\obj_Enemy</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

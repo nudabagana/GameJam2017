@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.1;
+            <string>detector = instance_create(x+12, y+20, obj_TowerDetector2);
+selected = true;
+image_speed = 0.1;
 </string>
           </argument>
         </arguments>

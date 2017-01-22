@@ -60,7 +60,7 @@
     <instance objName="obj_BuyItemBox" x="820" y="320" name="inst_4175A171" locked="0" code="self.tower = noone;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BuyItemBox" x="820" y="400" name="inst_A7F15228" locked="0" code="self.tower = noone;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BuyItemBox" x="820" y="480" name="inst_8C308366" locked="0" code="self.tower = noone;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BuyTower1" x="830" y="160" name="inst_046BA370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_BuyTower1" x="830" y="170" name="inst_046BA370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path1" x="680" y="280" name="inst_D11073F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="40" y="40" name="inst_B7C38E45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="80" y="40" name="inst_42FE2F7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

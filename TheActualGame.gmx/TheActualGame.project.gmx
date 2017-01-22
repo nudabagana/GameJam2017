@@ -14,6 +14,7 @@
       <sprite>sprites\spr_cursor</sprite>
       <sprite>sprites\spr_Menu_Crab</sprite>
       <sprite>sprites\spr_Menu_Coral</sprite>
+      <sprite>sprites\spr_skip</sprite>
     </sprites>
     <sprite>sprites\spr_Crystal</sprite>
     <sprite>sprites\spr_Bullet</sprite>
@@ -90,6 +91,7 @@
     <object>objects\obj_control_level1_start</object>
     <objects name="Main Menu">
       <object>objects\obj_start</object>
+      <object>objects\obj_skip</object>
       <object>objects\obj_exit</object>
       <object>objects\obj_highscore</object>
       <object>objects\obj_cursor</object>

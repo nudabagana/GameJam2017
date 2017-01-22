@@ -27,28 +27,28 @@
             <kind>1</kind>
             <string>image_speed = 0.25;
 myHP = 3;
-
+mySpeed = 3 + obj_control_level1_start.speedBonus;
 var temp = round(random(5));
 {
 switch (temp)
    {
    case 0:
-        path_start(path_Seagul1, 3, path_action_stop, true);
+        path_start(path_Seagul1, mySpeed, path_action_stop, true);
         break;
    case 1:
-        path_start(path_Seagul2, 3, path_action_stop, true);
+        path_start(path_Seagul2, mySpeed, path_action_stop, true);
         break;
    case 2:
-        path_start(path_Seagul3, 3, path_action_stop, true);
+        path_start(path_Seagul3, mySpeed, path_action_stop, true);
         break;
    case 3:
-        path_start(path_Seagul4, 3, path_action_stop, true);
+        path_start(path_Seagul4, mySpeed, path_action_stop, true);
         break;
    case 4:
-        path_start(path_Seagul5, 3, path_action_stop, true);
+        path_start(path_Seagul5, mySpeed, path_action_stop, true);
         break;
    case 5:
-        path_start(path_Seagul6, 3, path_action_stop, true);
+        path_start(path_Seagul6, mySpeed, path_action_stop, true);
         break;
    }
 }

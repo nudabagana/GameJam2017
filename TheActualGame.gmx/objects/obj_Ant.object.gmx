@@ -26,15 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.2;
-instspeed = 4;
+mySpeed = 5 + obj_control_level1_start.speedBonus;
 myHP = 3;
 if ( random(10) &gt; 5)
 {
-    path_start(path_level1_upper, 5, path_action_stop, true);
+    path_start(path_level1_upper, mySpeed, path_action_stop, true);
 }
 else
 {
-    path_start(path_level1_lower, 5, path_action_stop, true);
+    path_start(path_level1_lower, mySpeed, path_action_stop, true);
 }
 </string>
           </argument>

@@ -107,15 +107,15 @@ else
 {
     waveTime--;
     // JUST FOR TEST, NEEDS BALANCE
-    if ( waveTime % 2 == 0)
+    if ( waveTime mod 2 == 0)
     {
         instance_create(0,0,obj_Ant);
     }
-    if ( waveTime % 3 == 0)
+    if ( waveTime mod 5 == 0)
     {
         instance_create(0,0,obj_Tortoise);
     }
-    if ( waveTime % 5 == 0)
+    if ( waveTime mod 8 == 0)
     {
         instance_create(0,0,obj_Seagul);
     }

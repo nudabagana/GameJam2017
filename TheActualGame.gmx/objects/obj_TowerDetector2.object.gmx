@@ -84,6 +84,7 @@
             <string>target = noone;
 image_speed = 0;
 image_index = 0;
+dmgField = instance_create(x,y,obj_Tower2_dmgField);
 </string>
           </argument>
         </arguments>
@@ -106,7 +107,7 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_index = 0;
+            <string>dmgField.image_index = 0;
 </string>
           </argument>
         </arguments>
@@ -198,7 +199,7 @@ with(obj_Enemy)
     if (instance_exists(toDamage))
     {
         toDamage.myHP--;
-        other.image_index = 1;
+        other.dmgField.image_index = 1;
     }
 }
 

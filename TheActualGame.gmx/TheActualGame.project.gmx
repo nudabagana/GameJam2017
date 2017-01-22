@@ -23,6 +23,7 @@
       <sprite>sprites\spr_tower1</sprite>
       <sprite>sprites\spr_Tower2</sprite>
       <sprite>sprites\spr_TowerDetector2</sprite>
+      <sprite>sprites\spr_Tower2_dmgField</sprite>
     </sprites>
     <sprite>sprites\spr_Grid</sprite>
     <sprites name="GUI">
@@ -78,6 +79,12 @@
     <path>paths\path_level1_upper</path>
     <path>paths\path_level1_lower</path>
     <path>paths\path_Crab</path>
+    <path>paths\path_Seagul1</path>
+    <path>paths\path_Seagul2</path>
+    <path>paths\path_Seagul3</path>
+    <path>paths\path_Seagul4</path>
+    <path>paths\path_Seagul5</path>
+    <path>paths\path_Seagul6</path>
   </paths>
   <scripts name="scripts">
     <scripts name="Main Menu">
@@ -110,6 +117,7 @@
       <object>objects\obj_TowerDetector2</object>
       <object>objects\obj_Tower2</object>
       <object>objects\obj_Tower_base</object>
+      <object>objects\obj_Tower2_dmgField</object>
     </objects>
     <objects name="GUI">
       <object>objects\obj_ScoreLine</object>
@@ -147,6 +155,7 @@
     <objects name="Enemies">
       <object>objects\obj_Tortoise</object>
       <object>objects\obj_Enemy</object>
+      <object>objects\obj_Seagul</object>
     </objects>
   </objects>
   <rooms name="rooms">

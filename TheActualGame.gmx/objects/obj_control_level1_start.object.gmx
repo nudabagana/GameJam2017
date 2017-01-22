@@ -137,6 +137,30 @@ waveEnded = false;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
+        <whoName>obj_skip</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_index</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
         <whoName>self</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
@@ -581,6 +605,7 @@ if(waveEnded == true &amp;&amp; enemysLeft == noone)
 {
     waveEnded = false;
     buildTime = 10;
+    obj_skip.image_index = 0;
     alarm_set(1, 30);
 }
 </string>

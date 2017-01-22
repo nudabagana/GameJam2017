@@ -3,14 +3,14 @@
   <type>0</type>
   <xorig>50</xorig>
   <yorigin>50</yorigin>
-  <colkind>2</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
-  <bboxmode>1</bboxmode>
-  <bbox_left>0</bbox_left>
+  <bboxmode>0</bboxmode>
+  <bbox_left>2</bbox_left>
   <bbox_right>99</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>99</bbox_bottom>
+  <bbox_top>2</bbox_top>
+  <bbox_bottom>98</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,7 +20,7 @@
   <width>100</width>
   <height>100</height>
   <frames>
-    <frame index="0">images\spr_TowerDetector2_0.png</frame>
-    <frame index="1">images\spr_TowerDetector2_1.png</frame>
+    <frame index="0">images\spr_Tower2_dmgField_0.png</frame>
+    <frame index="1">images\spr_Tower2_dmgField_1.png</frame>
   </frames>
 </sprite>

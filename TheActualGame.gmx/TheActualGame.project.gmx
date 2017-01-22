@@ -109,6 +109,7 @@
       <object>objects\obj_TowerDetector</object>
       <object>objects\obj_TowerDetector2</object>
       <object>objects\obj_Tower2</object>
+      <object>objects\obj_Tower_base</object>
     </objects>
     <objects name="GUI">
       <object>objects\obj_ScoreLine</object>

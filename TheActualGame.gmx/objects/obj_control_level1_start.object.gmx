@@ -606,11 +606,11 @@ if(waveEnded == true &amp;&amp; enemysLeft == noone)
           <argument>
             <kind>1</kind>
             <string>selectedTower = noone;
-with ( instance_position( mouse_x, mouse_y, obj_Tower1 ))
+with ( instance_position( mouse_x, mouse_y, obj_Tower_base ))
 {
     other.selectedTower = self;
 }
-with(obj_Tower1)
+with(obj_Tower_base)
 {
     if(self = other.selectedTower &amp;&amp; selected == false)
     {

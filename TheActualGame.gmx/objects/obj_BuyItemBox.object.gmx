@@ -50,19 +50,24 @@ self.cost = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_Square)
+            <string>if (image_index != 2)
 {
-    if (buildOn == true)
+    with(obj_Square)
     {
-        image_index = 3;
+        if (buildOn == true)
+        {
+            image_index = 3;
+        }
     }
+    with(obj_BuyItemBox)
+    {
+        if (image_index != 2)
+        {
+        image_index = 0;
+        }
+    }
+    image_index = 1;
 }
-with(obj_BuyItemBox)
-{
-    image_index = 0;
-}
-image_index = 1;
-
 </string>
           </argument>
         </arguments>

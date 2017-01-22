@@ -37,6 +37,7 @@
         <sprite>sprites\spr_Seagul</sprite>
         <sprite>sprites\spr_Crab</sprite>
         <sprite>sprites\spr_Tortoise</sprite>
+        <sprite>sprites\spr_Main_Crab</sprite>
       </sprites>
       <sprites name="Static objects">
         <sprite>sprites\spr_sand_path1</sprite>
@@ -47,6 +48,8 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_OnlyOne</sprite>
+    <sprite>sprites\spr_Coral_Box</sprite>
+    <sprite>sprites\sprite29</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck</background>
@@ -60,6 +63,7 @@
   <paths name="paths">
     <path>paths\path_level1_upper</path>
     <path>paths\path_level1_lower</path>
+    <path>paths\path_Crab</path>
   </paths>
   <scripts name="scripts">
     <scripts name="Main Menu">
@@ -68,6 +72,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_Score</font>
+    <font>fonts\font_Score_Small</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_control_level1_start</object>
@@ -107,6 +112,8 @@
     <object>objects\obj_Sand_path2</object>
     <object>objects\obj_Sand_path3</object>
     <object>objects\obj_Cave</object>
+    <object>objects\obj_Coral_Box</object>
+    <object>objects\obj_Crystal_Spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

@@ -154,6 +154,7 @@
     </objects>
     <objects name="Enemies">
       <object>objects\obj_Tortoise</object>
+      <object>objects\obj_Ant</object>
       <object>objects\obj_Enemy</object>
       <object>objects\obj_Seagul</object>
     </objects>

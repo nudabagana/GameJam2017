@@ -3,7 +3,7 @@
   <spriteName>spr_tower1</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-5</depth>
+  <depth>-3</depth>
   <persistent>0</persistent>
   <parentName>obj_Tower_base</parentName>
   <maskName>&lt;undefined&gt;</maskName>

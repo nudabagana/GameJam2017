@@ -151,8 +151,6 @@
     <instance objName="obj_Square" x="40" y="440" name="inst_4F1B7B4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="40" y="400" name="inst_A1C85497" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="40" y="360" name="inst_8B265518" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Square" x="40" y="320" name="inst_7A181FC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Square" x="40" y="240" name="inst_548ABF84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="40" y="200" name="inst_D446F642" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="40" y="160" name="inst_CEE94CF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Square" x="40" y="120" name="inst_947982CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -249,7 +247,7 @@
     <instance objName="obj_Sand_path3" x="320" y="120" name="inst_D919E7E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_HealthBar" x="7" y="6" name="inst_DE1A4843" locked="0" code="" scaleX="2.5" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
     <instance objName="obj_DisplayTime" x="760" y="80" name="inst_89B38762" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Cave" x="20" y="298" name="inst_61778E14" locked="0" code="" scaleX="1.39999997615814" scaleY="1.39999997615814" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Cave" x="20" y="298" name="inst_61778E14" locked="0" code="" scaleX="0.930000007152557" scaleY="1.33000004291534" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sand_path5" x="120" y="280" name="inst_1FA7F95A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_Sand_path3" x="80" y="360" name="inst_3C1032C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Sand_path5" x="80" y="400" name="inst_E05666A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>

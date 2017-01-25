@@ -29,11 +29,103 @@
 currentCash = 310;
 currentWave = 0;
 buildTime = 10;
-waveTime = (currentWave * 2) + 7;
+fullWaveTime = 20;
+waveTime = fullWaveTime;
 waveEnded = false;
 speedBonus = 0;
+HPBonus = 0;
+
+ants = 0;
+tortoises = 0;
+seaguls = 0;
+antsTime = 0;
+tortoisesTime = 0;
+seagulsTime = 0;
 
 alarm[1] = 30;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (waveTime &gt; 0)
+{
+    instance_create(0,0,obj_Seagul);
+    alarm[4] = seagulsTime;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (waveTime &gt; 0)
+{
+    instance_create(0,0,obj_Tortoise);
+    alarm[3] = tortoisesTime;
+}
+    
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (waveTime &gt; 0)
+{
+    instance_create(0,0,obj_Ant);
+    alarm[2] = antsTime;
+}
+
 </string>
           </argument>
         </arguments>
@@ -56,27 +148,35 @@ alarm[1] = 30;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ( buildTime &lt; 1)
+            <string>if ( buildTime &lt;= 0)
 {
     alarm[0] = 30;
     obj_skip.image_index = 2;
-    buildTime--;
+    currentWave += 1;
+    if (currentWave % 7 == 0 )
+    {
+        speedBonus += 1;
+        fullWaveTime += 3;
+        HPBonus += 1;
+    }
+    waveTime = fullWaveTime;
+    //monster number calcs
+    ants      = 8 + floor( 16 * (power(1.07,currentWave) - 1));
+    tortoises = 4 + floor(  6 * (power(1.07,currentWave) - 1));
+    seaguls   = 2 + floor(  3 * (power(1.07,currentWave) - 1));
+    // Timers start
+    antsTime = waveTime*30/ants;
+    tortoisesTime = waveTime*30/tortoises;
+    seagulsTime = waveTime*30/seaguls;
+    alarm[2] = antsTime;
+    alarm[3] = tortoisesTime;
+    alarm[4] = seagulsTime;
 }
 else
 {
-    buildTime--;
-    if ( buildTime &lt;= 0)
-    {
-        currentWave += 1;
-        waveTime = (currentWave * 3) + 7;
-
-        if (currentWave % 10 == 0 )
-        {
-        speedBonus += 1;
-        }
-    }
     alarm[1] = 30;
 }
+buildTime--;
 </string>
           </argument>
         </arguments>
@@ -106,19 +206,6 @@ else
 else
 {
     waveTime--;
-    // JUST FOR TEST, NEEDS BALANCE
-    if ( waveTime mod 2 == 0)
-    {
-        instance_create(0,0,obj_Ant);
-    }
-    if ( waveTime mod 5 == 0)
-    {
-        instance_create(0,0,obj_Tortoise);
-    }
-    if ( waveTime mod 8 == 0)
-    {
-        instance_create(0,0,obj_Seagul);
-    }
     alarm[0] = 30;
 }
 </string>
@@ -155,6 +242,11 @@ if(waveEnded == true &amp;&amp; enemysLeft == noone)
     waveEnded = false;
     buildTime = 10;
     obj_skip.image_index = 0;
+    
+    currentCash += 50;
+    coralEarnedNotif = instance_create(860,130,obj_Corals_Earned);
+    coralEarnedNotif.alarm[0] = 30;
+
     alarm_set(1, 30);
 }
 </string>

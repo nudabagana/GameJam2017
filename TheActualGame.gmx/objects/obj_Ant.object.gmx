@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>image_speed = 0.4;
 mySpeed = 6 + obj_control_level1_start.speedBonus;
-myHP = 3;
-maxHP = 3;
+maxHP = 3 + obj_control_level1_start.HPBonus;
+myHP = maxHP;
 if ( random(10) &gt; 5)
 {
     path_start(path_level1_upper, mySpeed, path_action_stop, true);

@@ -34,6 +34,7 @@
       <sprites name="Text">
         <sprite>sprites\spr_Corals</sprite>
         <sprite>sprites\spr_Coral_Logo</sprite>
+        <sprite>sprites\spr_HoldShift</sprite>
       </sprites>
     </sprites>
     <sprites name="Game Sprites">
@@ -135,6 +136,7 @@
         <object>objects\obj_Coral_Logo</object>
         <object>objects\obj_Displayer</object>
         <object>objects\obj_DisplayTime</object>
+        <object>objects\obj_HoldShift</object>
       </objects>
       <object>objects\obj_BuyTower2</object>
     </objects>
@@ -165,6 +167,7 @@
     </objects>
     <objects name="Effects">
       <object>objects\obj_Corals_Earned</object>
+      <object>objects\obj_Corals_Earned_50</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -130,7 +130,7 @@ dmgField = instance_create(x,y,obj_Tower2_dmgField);
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>30</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -154,7 +154,7 @@ dmgField = instance_create(x,y,obj_Tower2_dmgField);
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>15</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -198,7 +198,7 @@ with(obj_Enemy)
     toDamage = collision_circle( other.x, other.y, 50, self, false, false );
     if (instance_exists(toDamage))
     {
-        toDamage.myHP--;
+        toDamage.myHP -= 0.8;
         other.dmgField.image_index = 1;
     }
 }

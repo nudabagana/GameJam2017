@@ -96,7 +96,8 @@
             <string>if(obj_control_level1_start.buildTime &lt;= 0)
 {
 //instance_create(720+random(50),350,obj_Coral_Box);
-instance_create(obj_Crab.x-40,obj_Crab.y,obj_Coral_Box);
+coralBox = instance_create(obj_Crab.x-40,obj_Crab.y,obj_Coral_Box);
+coralBox.alarm[0] = 120;
 }
 </string>
           </argument>

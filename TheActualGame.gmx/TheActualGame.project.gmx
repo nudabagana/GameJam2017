@@ -61,6 +61,10 @@
         <sprite>sprites\spr_Cave</sprite>
         <sprite>sprites\sprite28</sprite>
       </sprites>
+      <sprites name="Effects">
+        <sprite>sprites\spr_Corals_Earned</sprite>
+        <sprite>sprites\spr_Transperent</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_OnlyOne</sprite>
     <sprite>sprites\spr_Coral_Box</sprite>
@@ -94,6 +98,7 @@
   <fonts name="fonts">
     <font>fonts\font_Score</font>
     <font>fonts\font_Score_Small</font>
+    <font>fonts\font_Score_Smaller</font>
     <font>fonts\font_ScoreResize</font>
   </fonts>
   <objects name="objects">
@@ -157,6 +162,9 @@
       <object>objects\obj_Ant</object>
       <object>objects\obj_Enemy</object>
       <object>objects\obj_Seagul</object>
+    </objects>
+    <objects name="Effects">
+      <object>objects\obj_Corals_Earned</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -26,8 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.25;
-myHP = 3;
-maxHP = 3;
+maxHP = 4;
+myHP = maxHP;
 mySpeed = 3 + obj_control_level1_start.speedBonus;
 var temp = round(random(5));
 {

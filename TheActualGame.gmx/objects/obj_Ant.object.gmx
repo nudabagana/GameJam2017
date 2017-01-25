@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.4;
-mySpeed = 5 + obj_control_level1_start.speedBonus;
+mySpeed = 6 + obj_control_level1_start.speedBonus;
 myHP = 3;
 maxHP = 3;
 if ( random(10) &gt; 5)

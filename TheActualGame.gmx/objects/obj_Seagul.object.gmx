@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0.25;
 myHP = 3;
+maxHP = 3;
 mySpeed = 3 + obj_control_level1_start.speedBonus;
 var temp = round(random(5));
 {
